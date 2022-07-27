@@ -133,10 +133,6 @@ nav {
     text-align: center
 }
 
-.copy {
-    margin: 0;
-}
-
 .teni {
     background-color: #3882f6;
     background-size: cover;
@@ -167,5 +163,10 @@ nav {
 }
 
 .top {
+    margin: 0;
+}
+
+
+.copy {
     margin: 0;
 }
