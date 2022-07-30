@@ -1,6 +1,6 @@
 # Landing page
 
-> This project is just like a mixture of color
+> This project is just like a mixture of color but it base on flexbox
 
 ## Built With
 
