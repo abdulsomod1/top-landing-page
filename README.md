@@ -1,6 +1,6 @@
 # Landing page
 
-> This project is just like a mixture of color
+> This project is just like a mixture of color but it base on flexbox
 
 ## Built With
 
@@ -11,6 +11,17 @@
 - `section`
 - `botton`
 
+## Design with
+
+- `flex`
+- `backgorund color`
+- `color`
+- `margin`
+- `parding` 
+- `width`
+- `border radius`
+- `border `
+- `text align`
 ## Live Demo
 
 [Live Demo Link](https://app.netlify.com/sites/add-top-landing-page/deploys/62df7e2f6031080009c73688/)
