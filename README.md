@@ -17,10 +17,10 @@
 - `backgorund color`
 - `color`
 - `margin`
-- `parding` 
+- `parding`
 - `width`
 - `border radius`
-- `border `
+- `border`
 - `text align`
 ## Live Demo
 
