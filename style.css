@@ -49,13 +49,8 @@ nav {
   height: 15%;
 }
 
-.padding {
-  background-color: #e5e7eb;
-  color: #1f2937;
-  padding-left: 10%;
-  width: 50%;
-  height: 100px;
-  padding-top: 50px;
+img {
+  width: 30%;
 }
 
 .good {
