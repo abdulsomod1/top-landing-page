@@ -90,11 +90,13 @@ img {
 .go {
   color: #1f2937;
   margin-top: 150px;
+  padding-left: 3%;
   width: 100%;
+  text-align: center;
 }
 
 .colour {
-  background-color: #f9faf8;
+  background-color: #e5e7eb;
   color: #1f2937;
   padding-top: 3%;
 }
@@ -145,7 +147,6 @@ img {
   background-color: #3882f6;
   width: 20%;
   border: 2px solid;
-  border-color: #e5e7eb;
   border-radius: 10%;
   height: 40px;
   color: #e5e7eb;
