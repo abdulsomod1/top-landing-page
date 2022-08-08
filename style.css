@@ -1,6 +1,13 @@
-/* define var fot the root element */
-.root {
-  --header-bg-color: #1f2937;
+/* define vars for the root element */
+
+:root {
+  --nav-bg-color: #1f2937;
+  --header-container-bg-color: #1f2937;
+  --sign-up-bg-color: #3882f6;
+  --quote-container-bg-color: #e5e7eb;
+  --call-to-action2-bg-color: #3882f6;
+  --button-bg-color: #3882f6;
+  --copyright-container-bg-color: #1f2937;
 }
 
 .flex {
@@ -14,41 +21,40 @@ body {
 }
 
 nav {
-  background-color: var(--header-bg-color);
   font-weight: 18;
-  color: #e5e7eb;
+  background-color: var(--nav-bg-color);
 }
 
-.display {
+.header-container {
   margin: auto;
-  background-color: #1f2937;
+  background-color: var(--header-container-bg-color);
 }
 
-.margin {
+.header-logo-text {
   margin-left: 10%;
   color: #f9faf8;
   margin-right: 20%;
   font-size: 24px;
 }
 
-.nav {
+.header-link {
   list-style: none;
   display: inline;
   color: #e5e7eb;
-  margin-left: 50px;
+  margin-left: 80px;
   font-size: 18px;
 }
 
-.awesome {
+.hero-text {
   font-size: 48px;
   margin: 0;
 }
 
-.bold {
+.page-description {
   width: 135%;
 }
 
-.px {
+.hero-container {
   color: #f9faf8;
   margin-left: 10%;
   margin-top: 7%;
@@ -58,8 +64,8 @@ nav {
   margin-bottom: 10%;
 }
 
-.class {
-  background-color: #3882f6;
+.sign-up-button {
+  background-color: var(--sign-up-bg-color);
   border-radius: 10px;
   border: #3882f6;
   width: 45%;
@@ -77,12 +83,12 @@ img {
   margin-top: 7%;
 }
 
-.good {
-  padding-top: 3%;
-  padding-bottom: 1%;
+.information-container {
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
-.black {
+.information-header-text {
   color: #1f2937;
   text-align: center;
   margin: auto;
@@ -91,11 +97,11 @@ img {
   font-size: 36px;
 }
 
-.container {
+.illustration-container1 {
   margin-left: 25%;
 }
 
-.item {
+.illustration-container {
   width: 15%;
   height: 150px;
   border: 5px solid #3882f6;
@@ -114,8 +120,8 @@ img {
   font-weight: 500;
 }
 
-.colour {
-  background-color: #e5e7eb;
+.quote-container {
+  background-color: var(--quote-container-bg-color);
   color: #1f2937;
   padding-top: 3%;
   font-weight: lighter;
@@ -125,13 +131,13 @@ img {
   margin-bottom: 10%;
 }
 
-.color {
+.quote-text {
   padding-left: 25%;
   padding-right: 15%;
   margin: 0;
 }
 
-.thor {
+.quote-speaker {
   margin: 0;
   margin-left: 60%;
   padding-bottom: 3%;
@@ -140,7 +146,7 @@ img {
   font-size: 24px;
 }
 
-.but {
+.call-to-action-container1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -149,29 +155,29 @@ img {
   margin-bottom: 5%;
 }
 
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 150px;
-  background-color: #3882f6;
-  width: 80%;
-  border-radius: 10px;
-}
-
-.butt {
+.call-to-action-container3 {
   font-size: 20px;
   font-weight: 700;
   color: #e5e7eb;
 }
 
-.buttt {
+.call-to-action-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  background-color: var(--call-to-action2-bg-color);
+  width: 80%;
+  border-radius: 10px;
+}
+
+.button-discription {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.style {
-  background-color: #3882f6;
+.button {
+  background-color: var(--button-bg-color);
   color: #f9faf8;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -182,8 +188,8 @@ img {
   height: 30px;
 }
 
-.copyright {
-  background-color: #1f2937;
+.copyright-container {
+  background-color: var(--copyright-container-bg-color);
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: center;
