@@ -45,7 +45,7 @@ nav {
   font-size: 18px;
 }
 
-.hero-text {
+.hero-header-text {
   font-size: 48px;
   margin: 0;
 }
@@ -112,7 +112,7 @@ img {
   margin-bottom: 10%;
 }
 
-.go {
+.image-subtext {
   color: #1f2937;
   width: 150px;
   text-align: center;
@@ -137,7 +137,7 @@ img {
   margin: 0;
 }
 
-.quote-speaker {
+.quote-author {
   margin: 0;
   margin-left: 60%;
   padding-bottom: 3%;
@@ -146,7 +146,7 @@ img {
   font-size: 24px;
 }
 
-.call-to-action-container1 {
+.call-to-action-section {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -155,13 +155,13 @@ img {
   margin-bottom: 5%;
 }
 
-.call-to-action-container3 {
+.call-to-action-container {
   font-size: 20px;
   font-weight: 700;
   color: #e5e7eb;
 }
 
-.call-to-action-container2 {
+.call-to-action-article {
   display: flex;
   align-items: center;
   justify-content: space-around;
